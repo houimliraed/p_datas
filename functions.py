@@ -1,10 +1,10 @@
 
 
-numberOfDays = input("input the number of days !\n")
-
-print(numberOfDays)
-
 def daysToUnits(numberOfDays):
-    print(60 * {numberOfDays})
-    
-#daysToUnits()
+    return({60 * numberOfDays})
+
+userInput = input("input the number of days !\n")
+userInputAsNumber = int(userInput)
+calculatedValue = daysToUnits(userInputAsNumber)
+
+print(calculatedValue)
