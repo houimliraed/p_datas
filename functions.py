@@ -1,7 +1,7 @@
 
 
 def daysToUnits(numberOfDays):
-    return({60 * numberOfDays})
+    return f" Number of hours in days are {60 * numberOfDays}"
 
 userInput = input("input the number of days !\n")
 userInputAsNumber = int(userInput)
