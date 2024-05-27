@@ -18,8 +18,8 @@ def validateAndExcute():
                 print('check the value it is equal to zero')
     except ValueError:
         print('your input is not a valid number !')          
-
-while(True):
+userInput =  ""
+while(userInput != 'exit'):
      userInput = input("input the number of days !\n")
      validateAndExcute()       
 
