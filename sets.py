@@ -6,4 +6,5 @@ for element in mySet:
 mySet.add('66')
 print(mySet)
 mySet.remove('10')
+#remove only removes the first occurence of the element
 print(mySet)
