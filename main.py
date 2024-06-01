@@ -5,4 +5,10 @@ def whatever ():
 
 whatever()
 
+#built in functions in python
+print()
+input()
+set()
+int()
+
 
