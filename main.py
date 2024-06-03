@@ -1,14 +1,12 @@
+import functions
+
 def whatever ():
     print("hello world")
-
-
-
 whatever()
-
-#built in functions in python
-print()
-input()
-set()
-int()
-
+##########################################
+userInput =  ""
+while(userInput != 'exit'):
+     userInput = input("input the number of days !\n")
+     for x in userInput.split():
+          functions.validateAndExcute(x)
 
