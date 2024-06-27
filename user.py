@@ -5,8 +5,10 @@ class User:
       self.password = password
       self.job_title = job_title
 
-    def change_password():
+    def change_password(self , new_password):
+        self.password = new_password
     
     
-    def change_job_title():
+    def change_job_title(self , new_job_title):
+        self.job_title = new_job_title
 
