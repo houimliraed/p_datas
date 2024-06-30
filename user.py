@@ -11,4 +11,14 @@ class User:
     
     def change_job_title(self , new_job_title):
         self.job_title = new_job_title
+    
+    def get_user_info(self):
+          print(f"User {self.name} is cuurently working as {self.job_title} and reachable at {self.email}") 
 
+app_user_one = User("houimliraed@outlook.fr","raed","testing","software engineer")
+
+app_user_one.get_user_info()
+
+app_user_one.change_job_title("devops engineer")
+
+app_user_one.get_user_info()
